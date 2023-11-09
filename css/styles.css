@@ -1,0 +1,43 @@
+/* agregra tipografia */
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/playa.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 90%;
+    max-width: 1350px;
+    margin: 8% auto;
+    border: 1px solid #adff2f;
+    background: #828282;
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+
+}
+h1{
+    color: white;
+    font-size: 60px;
+}
+p{
+    color: purple;
+    font-size: 22px;
+}
+
+button{
+    background: transparent;
+    border: 2px solid purple;
+    padding: 12px 30px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background: black;
+    color: purple;
+    border: 2px solid white;
+    border-radius: 8px;
+}
